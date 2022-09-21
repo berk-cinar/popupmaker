@@ -1,0 +1,56 @@
+@import url("https://apiv2.popupsmart.com/api/googlefont");
+.settings {
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+}
+
+/* 
+    .settings{
+    padding: 60px 80px; 
+    background-color: #ffffff; 
+   } */
+.card {
+  padding: 50px;
+}
+
+.underlined {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  text-decoration: underline;
+  margin-bottom: 30px;
+}
+
+.input_gs {
+  font-size: 16px;
+  padding-left: 16px;
+  margin-top: 5px;
+  border: 1px solid #D2DAE3;
+  width: 100%;
+  left: 65px;
+  top: 285px;
+  border-radius: 8px;
+  line-height: 48px;
+}
+
+.headlines {
+  margin-bottom: 10px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 2.5rem;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.input-desc {
+  box-sizing: border-box;
+  padding-left: 16px;
+  font-size: 16px;
+  margin-top: 5px;
+  height: 103px;
+  border-radius: 8px;
+}/*# sourceMappingURL=Settings.css.map */

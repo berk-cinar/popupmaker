@@ -1,0 +1,60 @@
+
+  /* SUCCESS */
+
+
+  .success-card {
+    background-color: #fff;
+    height: 60vh;
+    margin:auto;
+    width: 50%;
+    margin-top:-58vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.background{
+    position: relative;
+}
+
+.success-img {
+    margin-left:30%;
+    width: 99px;
+    height: 99px;
+}
+
+.success-msg {
+    font-size: 64px;
+    width: 17rem;
+    font-weight: 500;
+}
+
+.alert-logo {
+  display: inline;
+  height: 12px;
+  width: 12px; 
+  float: left;
+  margin: 3px;
+}
+
+.alert-text {
+  float: left;
+  display: inline;
+  width: 9rem;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.invalidmail{
+  float: left;
+  display: inline;
+  width: 9rem;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+}
