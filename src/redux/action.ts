@@ -1,7 +1,7 @@
 import react from "react";
 import axios from "axios";
-import { apiFetchSuccess, apiFetchError, apiFetchBegin } from "./constants";
 
+import { apiFetchSuccess, apiFetchError, apiFetchBegin } from "./constants";
 
 export const axiosText = () =>(dispatch:any) => {
     axios.get('https://apiv2.popupsmart.com/api/googlefont')

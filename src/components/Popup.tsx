@@ -103,16 +103,19 @@ const onChangeEmail = (event: any) => {
   }
 
   return (
-     <div className=" grid grid-cols-4">
-      <div className=' col-start-1 col-end-2' >
-          
-        <SettingsComponent 
+     <div className="grid 
+     grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 
+     ">
+      <div className="h-100 md:col-start-1 col-end-2 ">
+        {/*  col-start-1 col-end-2  */}  
+        <SettingsComponent
               axiosText={axiosText} 
               handleHeader={handleHeader}
               handleDesc={handleDesc} 
               handleMessage={handleMessage}   />
      </div>
-      <div className="popup col-end-5 col-span-3">
+      <div className="h-60  popup md:col-end-5 col-span-3">
+        {/* /* col-end-5 col-span-3 */ }
     <SuccessComponent 
             success={success} 
             showSuccess={showSuccess} /> 

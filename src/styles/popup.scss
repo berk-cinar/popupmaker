@@ -1,15 +1,14 @@
-@import url('https://apiv2.popupsmart.com/api/googlefont');
-
-
 .popup {
     background-color: #585B68;
     text-align: center;
+    height: 100vh;
   }
   
   .lentils {
-    width: 75%;
+    width: 80%;
     margin: auto;
-    margin-top: 5%;
+    position: relative;
+    margin-top: 10%;
   }
   
   .close-button {
@@ -19,26 +18,33 @@
   }
   
   .card2{
-    height: 60vh;
+    margin-top:-300px ;
+    height: 70vh;
+    max-height: 500px;
     background-color: #ffffff;
-    margin: auto;
-    margin-top:-58vh;
-    width: 50%;
+    margin:auto;
+    margin-top: -45%;
+    width: 60%;
+
+    max-width: 650px;
+    min-width: 355px; 
     position: relative;
-  
   }
+
   
   .header{
-    font-size: 64px;
+    font-size: 60px;
     margin-top: 9%;
     font-weight: 500;
     text-align: center;
     font-style: normal;
     line-height: 77px;
     color: #000000;
+    padding: 10px;
   }
   
   .detail{
+    padding: 0 10%;
     margin-top:-20px;
     font-size: medium;
     font-weight: 600;
@@ -49,32 +55,37 @@
     font-weight: 600;
   }
   
-  
   .input {
     padding-left: 10px;
+    min-width: 250px;
+    max-width: 350px;
     border: none;
     background-color: rgba(237, 237, 237, 1);
-    width: 20rem;
-    height: 2rem;
+    width: 25vw;
+    height: 3vh;
+    margin: auto;
+    min-height: 25px;
     margin-top: 15px;
-  
   }
   
   .center{
-    width: 55%;
     margin: 0 auto;
   }
+
   /* DROPDOWN */
   
   .dropbtn {
-    margin-top: -5px;
+    margin-top: -10px;
     background-color: #EDEDED;
-    height: 2rem;
+    height: 3vh;
+    width: 25vw;
+    min-width: 250px;
+    max-width: 350px;
     color:#000000 ;
     font-size: 16px;
     border: none;
     cursor: pointer;
-    width: 20rem;
+    min-height: 25px;
   }
   
   .dropdown {
@@ -90,10 +101,12 @@
   .dropdown-content {
     display: none;
     position: absolute;
-    width: 20rem;
+    width: 25vw;
     background-color: #EDEDED;
     min-width: 160px;
     z-index: 1;
+    min-width: 200px;
+    max-width: 350px;
   }
   
   .dropdown-content a {
@@ -119,12 +132,14 @@
   }
   
     .button {
-      width: 20rem;
+      min-width: 200px;
+      max-width: 350px;
       background-color: #639005;
       color: #ffffff;
       border: none;
       height: 2rem; 
       margin-top: 1rem;
       margin-bottom: 2rem;
+      width: 25vw;
     }
   

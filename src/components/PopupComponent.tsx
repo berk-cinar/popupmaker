@@ -27,7 +27,7 @@ const PopupComponent = (props:any) => {
     return (
         <div className='popUpPage'>
         { showSuccess && <div>
-        <img className='lentils' src="lentils.png" alt="lentils"/>
+        <img className='lentils invisible' src="lentils.png" alt="lentils"/>
             <div className='card2'>
             <button>
                 <img onClick={() => setShowDesc(!showDesc)} className='close-button' src="close_button.png" />

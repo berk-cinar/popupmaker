@@ -9,7 +9,7 @@ const SuccessComponent = (props:any) => {
     <div >
     { !showSuccess && 
         <div className='background'>
-        <img className='lentils' src="lentils.png" alt="lentils"/>
+    {/*     <img className='lentils' src="lentils.png" alt="lentils"/> */}
     <div className='layer'>
     <div className='success-card'>
         <div>

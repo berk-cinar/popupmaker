@@ -3,7 +3,6 @@ import { apiFetchBegin, apiFetchError, apiFetchSuccess } from './constants';
 
 const initialState = {message:null, error:null}
 
-
 const headerReducer = (state=initialState, action:any) => {
     switch (action.type) {
         case apiFetchBegin:

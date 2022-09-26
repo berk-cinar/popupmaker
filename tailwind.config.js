@@ -5,6 +5,16 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    screens: {
+      'sm': '576px',
+      // => @media (min-width: 640px) { ... }
+
+      'md': '960px',
+      // => @media (min-width: 1024px) { ... }
+
+      'lg': '1440px',
+      // => @media (min-width: 1280px) { ... }
+    }
   },
   plugins: [],
 }

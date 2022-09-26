@@ -10,8 +10,8 @@ const SettingsComponent = (props:any) => {
 
     return (
         <div className="card settings">
-        <h3 className='underlined'>General Settings</h3>
-  <button onClick={axiosText}> AXIOS BUTTON EXAMPLE</button>
+        <h3 className='underlined'>General Settings</h3>{/* 
+  <button onClick={axiosText}> AXIOS BUTTON EXAMPLE</button> */}
         <h5 className='headlines'>Headline </h5>
 
     <input onChange={handleHeader}  className='input_gs' placeholder="NEW STUFF" />
