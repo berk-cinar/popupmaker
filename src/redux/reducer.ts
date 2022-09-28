@@ -1,7 +1,7 @@
 import React from 'react'
 import { apiFetchBegin, apiFetchError, apiFetchSuccess } from './constants';
 
-const initialState = {message:null, error:null}
+const initialState = {message:null, error:null }
 
 const headerReducer = (state=initialState, action:any) => {
     switch (action.type) {
@@ -24,5 +24,6 @@ const headerReducer = (state=initialState, action:any) => {
             return state;
     }
 }
+
 
 export default headerReducer;

@@ -21,8 +21,9 @@ const Popup = () => {
   )
 
   const reduxMessage = useSelector((state:any) => state.header.message);
+  console.log(reduxMessage);
 
-  const [header, setHeader] = useState("NEW STUFF")
+  const [header, setHeader] = useState("DONT MISS UPDATES")
   const [desc, setDesc] = useState("Sign up for our newsletter and get %15 off your first order !")
   const [success, setSuccess] = useState("SUCCESS");
   
@@ -106,20 +107,21 @@ const onChangeEmail = (event: any) => {
      <div className="grid 
      grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 
      ">
-      <div className="h-100 md:col-start-1 col-end-2 ">
-        {/*  col-start-1 col-end-2  */}  
+      <div className="md:col-start-1 col-end-2 ">
         <SettingsComponent
               axiosText={axiosText} 
               handleHeader={handleHeader}
               handleDesc={handleDesc} 
-              handleMessage={handleMessage}   />
+              handleMessage={handleMessage}
+            reduxMessage={reduxMessage}
+            />
      </div>
-      <div className="h-60  popup md:col-end-5 col-span-3">
-        {/* /* col-end-5 col-span-3 */ }
+      <div className="popup md:col-end-5 col-span-3">
     <SuccessComponent 
             success={success} 
             showSuccess={showSuccess} /> 
      <PopupComponent 
+        axiosText={axiosText} 
             reduxMessage={reduxMessage}
             showSuccess={showSuccess}
             showDesc={ showDesc}
